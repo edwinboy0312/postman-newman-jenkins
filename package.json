@@ -1,0 +1,15 @@
+{
+  "name": "postman",
+  "version": "1.0.0",
+  "description": "Project for storing postman test",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "api-test": "newman run tests/JsonPlaceholer.com.postman_collection.json"
+  },
+  "author": "Edwin",
+  "dependencies": {
+    "newman": "^3.9.3"
+  }
+}
